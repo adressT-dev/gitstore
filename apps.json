@@ -1,0 +1,40 @@
+{
+  "apps": [
+    {
+      "id": "python",
+      "name": "Python Language",
+      "category": "Runtimes / Languages",
+      "icon_url": "https://raw.githubusercontent.com/python/community-logos/master/python-logo-generic.png",
+      "description": "Официальный интерпретатор языка Python. Доступны все релизы.",
+      "install_args": "/quiet InstallAllUsers=1 PrependPath=1",
+      "versions": [
+        {
+          "version": "3.15.0rc1",
+          "download_url": "https://www.python.org/ftp/python/3.15.0/python-3.15.0rc1-amd64.exe"
+        },
+        {
+          "version": "3.11.9",
+          "download_url": "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe"
+        },
+        {
+          "version": "3.3.5rc1",
+          "download_url": "https://www.python.org/ftp/python/3.3.5/python-3.3.5rc1.amd64.msi"
+        }
+      ]
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "category": "Editors & IDEs",
+      "icon_url": "https://raw.githubusercontent.com/microsoft/vscode/main/resources/win32/code.ico",
+      "description": "Популярный редактор кода от Microsoft.",
+      "install_args": "/verysilent",
+      "versions": [
+        {
+          "version": "1.92.0",
+          "download_url": "https://update.code.visualstudio.com/1.92.0/win32-x64-user/stable"
+        }
+      ]
+    }
+  ]
+}
